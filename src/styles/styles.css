@@ -2,3 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.centered-image {
+    display: block; /* images are inline by default, which is why they don't center.  :) */
+    margin: 0 auto 0 auto;
+}
