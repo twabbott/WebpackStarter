@@ -1,8 +1,24 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(235, 255, 243);
+    margin: 15px 0 0 0;
 }
 
-.centered-image {
-    display: block; /* images are inline by default, which is why they don't center.  :) */
-    margin: 0 auto 0 auto;
+.btn-spacer {
+    margin-bottom: 15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
 }

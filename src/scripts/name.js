@@ -1,0 +1,16 @@
+////////////////////////////////////////////////////////////////////////////////
+///   N a m e
+////////////////////////////////////////////////////////////////////////////////
+
+// This is just a simple ES6 module.  It exports a couple of functions, to 
+// demonstrate how CommonJS works.
+
+let _name = "";
+
+export const getName = () => {
+    return _name;
+}
+
+export const setName = (n) => {
+    _name = n;
+}
